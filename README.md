@@ -17,3 +17,16 @@ The system provides real-time visibility into document workflows, helping reduce
 ## Purpose
 
 This project aims to improve document handling processes by providing a centralized platform that ensures transparency, accountability, and efficient document management within an organization.
+
+
+## 🚀 Getting Started
+
+This project uses a lean, vanilla frontend stack (HTML, CSS, JS) with Tailwind CSS v4. To run the build tools and compile the styles locally, you will need to have Node.js installed.
+
+### 1. Prerequisites
+Before you begin, ensure you have **Node.js** installed on your machine (which includes `npm`).
+* Download and install the LTS version from the [official Node.js website](https://nodejs.org/).
+* To verify the installation, open your terminal and run:
+  ```bash
+  node -v
+  npm -v
