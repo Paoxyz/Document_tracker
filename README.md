@@ -30,7 +30,12 @@ Before you begin, ensure you have **Node.js** installed on your machine (which i
   ```bash
   node -v
   npm -v
+(Both commands should return a version number. If they are not recognized, restart your terminal or computer.)
 
+2. Installation
+Clone the repository and install the project's development dependencies (specifically the Tailwind CSS CLI).
+
+Bash
 # Clone the repository
 git clone [https://github.com/Paoxyz/Document_tracker.git](https://github.com/Paoxyz/Document_tracker.git)
 
@@ -39,10 +44,16 @@ cd Document_tracker
 
 # Install the required Node modules
 npm install
+Note: The node_modules folder is ignored by Git, which is why you must run npm install to download Tailwind fresh on any new machine.
+
+3. Running the Development Server
+To work on the project and have Tailwind automatically compile your utility classes as you code, you need to run the build watcher.
 
 Open your terminal in the project directory and run:
 
 Bash
-
-
 npx @tailwindcss/cli -i ./src/input.css -o ./public/assets/css/style.css --watch
+Leave this terminal running in the background. It will actively watch your files and update the style.css file whenever you save changes.
+
+4. Viewing the Project
+Once the watcher is running, simply open public/index.html in your web browser, or use a tool like VS Code's Live Server extension to view the site with hot-reloading.
