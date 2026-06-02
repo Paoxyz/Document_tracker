@@ -30,3 +30,12 @@ Before you begin, ensure you have **Node.js** installed on your machine (which i
   ```bash
   node -v
   npm -v
+
+# Clone the repository
+git clone [https://github.com/Paoxyz/Document_tracker.git](https://github.com/Paoxyz/Document_tracker.git)
+
+# Navigate into the project directory
+cd Document_tracker
+
+# Install the required Node modules
+npm install
