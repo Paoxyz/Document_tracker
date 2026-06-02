@@ -314,9 +314,8 @@
 </head>
 <body>
 
-  <!-- ── SIDEBAR ── -->
   <aside class="sidebar">
-    <a class="sidebar-logo" href="#">
+    <a class="sidebar-logo" href="dashboard.php">
       <div class="logo-icon">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
@@ -330,11 +329,11 @@
 
     <div class="sidebar-section">
       <div class="sidebar-label">Main</div>
-      <a class="nav-item active" href="#">
+      <a class="nav-item active" href="dashboard.php">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
         Overview
       </a>
-      <a class="nav-item" href="#">
+      <a class="nav-item" href="documents.php">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
         All Documents
         <span class="nav-badge green">12</span>
@@ -386,10 +385,8 @@
     </div>
   </aside>
 
-  <!-- ── MAIN ── -->
   <div class="main">
 
-    <!-- TOPBAR -->
     <header class="topbar">
       <div class="topbar-left">
         <div>
@@ -413,10 +410,8 @@
       </div>
     </header>
 
-    <!-- CONTENT -->
     <div class="content">
 
-      <!-- METRIC CARDS -->
       <div class="metrics-row">
         <div class="metric-card">
           <div class="metric-icon" style="background:var(--accent-bg);">
@@ -452,7 +447,6 @@
         </div>
       </div>
 
-      <!-- ACTIVITY CHART + QUICK ACTIONS -->
       <div class="two-col">
         <div class="card">
           <div class="card-header">
@@ -541,7 +535,6 @@
         </div>
       </div>
 
-      <!-- DOCUMENT QUEUE TABLE -->
       <div class="card" style="margin-bottom:16px;">
         <div class="card-header">
           <span class="card-title">Document Queue</span>
@@ -673,7 +666,6 @@
         </div>
       </div>
 
-      <!-- DEPARTMENT STATUS + RECENT ACTIVITY -->
       <div class="three-col" style="margin-bottom:0;">
         <div class="card" style="grid-column: span 1;">
           <div class="card-header">
@@ -776,8 +768,5 @@
         </div>
       </div>
 
-    </div><!-- /content -->
-  </div><!-- /main -->
-
-</body>
+    </div></div></body>
 </html>
