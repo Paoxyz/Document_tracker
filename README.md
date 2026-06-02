@@ -39,3 +39,10 @@ cd Document_tracker
 
 # Install the required Node modules
 npm install
+
+Open your terminal in the project directory and run:
+
+Bash
+
+
+npx @tailwindcss/cli -i ./src/input.css -o ./public/assets/css/style.css --watch
